@@ -1,8 +1,8 @@
 {
-  "version": "0.9.26",
-  "released_at": "2026-08-20T19:52:52+08:00",
+  "version": "0.9.27",
+  "released_at": "2026-08-21T11:44:00+08:00",
   "windows": {
-    "url": "https://github.com/jiangyue778-pixel/xingxuan-koubo-updates/releases/download/v0.9.26/xingxuan-koubo-windows-0.9.26.zip",
-    "sha256": "6b00d708eb90083032b77640651dae7bf46238ded59d92e2a2581f48d9725237"
+    "url": "https://github.com/jiangyue778-pixel/xingxuan-koubo-updates/releases/download/v0.9.27/xingxuan-koubo-windows-0.9.27.zip",
+    "sha256": "bd37b676f55339e4688f0ec0738ab9ac1a9be9c6a79a273a7f0a833727293c9a"
   }
 }
