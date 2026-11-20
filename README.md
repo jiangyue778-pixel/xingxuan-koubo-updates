@@ -1,13 +1,17 @@
-# 星选口播更新发布
+# 星选助手｜批量提取视频与文案
 
-此仓库只存放可分发的 Windows 更新包、版本清单和 Chrome Web Store 上传包。
+星选助手是浏览器扩展，用于收集用户有权访问的公开作品、提取字幕、转写中文语音和导出文案。
 
-- 私有源码仓库：由维护者管理，不在此公开。
-- Windows 程序：首次优先双击 release 中的 `xingxuan-koubo-windows-installer-*.exe`，它会自动解压并准备专用运行环境、转写模型、桌面快捷方式和开机启动；之后自动读取 `update.json`，下载并校验新版更新包。
-- Chrome 扩展：通过 Chrome Web Store 的“不公开”发布渠道分发，安装一次后由 Chrome 自动更新。
+## 安装与更新
 
-## Chrome 应用店发布前的临时安装
+- 从 [Chrome 网上应用店的星选助手原条目](https://chromewebstore.google.com/detail/piagegkacadbjadneljndcbjmknpombg) 获取当前可用版本。商店安装的扩展由 Chrome 更新。
+- 0.10.105 为商店送审候选版本。实际可用版本以商店为准。
+- Chrome 扩展在浏览器内运行，无需安装 Windows EXE、启动本地服务或另装语音模型。各内容平台的登录和访问要求仍然适用。
 
-下载 release 中名称为 `xingxuan-koubo-chrome-local-unpacked-*.zip` 的文件，先解压，再在 `chrome://extensions` 中开启开发者模式并点击“加载已解压的扩展程序”。选择的文件夹内必须能直接看到 `manifest.json`；Chrome 不能直接加载 ZIP 文件。
+这个仓库保留历史 Windows 更新包和 Firefox 中文语音模型，供对应旧版本使用。
 
-请先运行 Windows 单文件安装程序。安装完成后本地服务会静默运行，不需要另外安装 Python、手动解压或保持命令窗口开启。
+## 支持
+
+支持反馈功能的版本可在插件内打开「反馈与建议」，免登录提交问题、使用体验或功能建议。
+
+[产品主页](https://xingxuan-assistant.jiangyue778.chatgpt.site) · [隐私政策](https://xingxuan-assistant.jiangyue778.chatgpt.site/privacy)
